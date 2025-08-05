@@ -1,0 +1,58 @@
+[
+    {
+      "id": 1,
+      "name": "Casa Brisas del Valle",
+      "address": "Pérez Zeledón, San José, Costa Rica",
+      "description": "Encantadora casa rural rodeada de montañas, perfecta para el descanso.",
+      "price": 280,
+      "image": "/images/Brisas-del-Valle.webp",
+      "city": "San Isidro de El General"
+    },
+    {
+      "id": 2,
+      "name": "Villa Uvita Azul",
+      "address": "Uvita, Puntarenas, Costa Rica",
+      "description": "Villa moderna con piscina privada y vistas al océano Pacífico.",
+      "price": 350,
+      "image": "/images/Villa-Uvita-Azul.jpg",
+      "city": "Uvita"
+    },
+    {
+      "id": 3,
+      "name": "Bungalow Playa Dominical",
+      "address": "Dominical, Puntarenas, Costa Rica",
+      "description": "Acogedor bungalow a pasos de la playa, ideal para surfistas y aventureros.",
+      "price": 250,
+      "image": "/images/Bungalow-Playa-Dominical.webp",
+      "city": "Uvita"
+    },
+    {
+      "id": 4,
+      "name": "Casa del Mono",
+      "address": "Manuel Antonio, Puntarenas, Costa Rica",
+      "description": "Casa rodeada de naturaleza con vista al parque nacional y monos a diario.",
+      "price": 400,
+      "image": "/images/Casa-del-Mono.webp",
+      "city": "Quepos"
+    },
+     {
+      "id": 5,
+      "name": "San José",
+      "address": "San José, Costa Rica",
+      "description": "Moderna casa en el corazón de San José, cerca de museos, restaurantes y vida urbana.",
+      "price": 280,
+      "image": "/images/san-jose.webp",
+      "city": "San José"
+    },
+     {
+      "id": 6,
+      "name": "Valle Encantado",
+      "address": "Manuel Antonio, Puntarenas, Costa Rica",
+      "description": "Casa rodeada de naturaleza con vista al Parque Nacional Manuel Antonio, monos a diario y mucha tranquilidad.",
+      "price": 500,
+      "image": "/images/Valle-Encantado.webp",
+      "city": "Quepos"
+    }
+    
+  ]
+  

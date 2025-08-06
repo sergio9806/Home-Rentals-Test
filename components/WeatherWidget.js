@@ -37,14 +37,18 @@ export default function WeatherWidget({ city }) {
     );
 
   return (
-    <div className="p-4 mt-3 rounded-xl bg-[#FDF5E6] border border-[#E0E0E0] flex items-center gap-4">
-      <FiCloud className="text-[#001F3F] text-2xl" />
-      <div>
-        <h4 className="font-semibold text-[#001F3F] mb-1">Clima en {city}</h4>
-        <p className="text-[#708090] font-medium capitalize">
-          {weather.weather[0].description}, {weather.main.temp}°C
-        </p>
-      </div>
+     <div className="flex-1 border-1 border-amber-200 p-2 ">
+    <h4 className="font-bold text-[#001F3F] text-lg mb-1">
+      Clima en {city}
+    </h4>
+    <p className="text-gray-600 capitalize">
+      {weather.weather[0].description}, {weather.main.temp}°C
+    </p>
+    <div className="text-sm text-gray-500 mt-1">
+      <p>Sensación: {weather.main.feels_like}°C</p>
+      <p>Humedad: {weather.main.humidity}%</p>
+      <p>Viento: {weather.wind.speed} km/h</p>
     </div>
+  </div>
   );
 }

@@ -5,6 +5,7 @@ Plataforma diseñada para facilitar la gestión de inmuebles disponibles para al
 
 🌐 Deploy en Producción
 🔗 
+https://homerentalstest.netlify.app/login
 
 🔐 Credenciales de Prueba
 Puedes iniciar sesión con las siguientes credenciales:
@@ -35,7 +36,7 @@ OpenWeatherMap	API de datos meteorológicos en tiempo real
 
 ⚙️ Instalación Local
 Clonar el repositorio:
-
+git clone https://github.com/sergio9806/Home-Rentals-Test.git
 bash
 Copiar
 Editar
